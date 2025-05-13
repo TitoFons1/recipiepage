@@ -1,0 +1,78 @@
+:root {
+    --fuentePrincipal: "Outfit", sans-serif;
+    --fuenteHeading: "Young Serif", serif;
+
+    --colorBlanco: hsl(0, 0%, 100%);
+    --colorFondo: hsl(30, 54%, 90%);
+    --colorContainer: hsl(30, 18%, 87%);
+    --colorParrafos: hsl(30, 10%, 34%);
+    --colorTitulo: hsl(24, 5%, 18%);
+    --colorSecciones: hsl(14, 45%, 36%);
+    --colorTitulo-Seccion: hsl(332, 51%, 32%);
+    --colorContainer-Seccion: hsl(330, 100%, 98%);
+}
+
+/* GLOBALES */
+
+body {
+    font-family: var(--fuentePrincipal);
+    font-size: 16px;
+    background-color: var(--colorFondo);
+    margin: 0;
+}
+
+h1, h2, h3{
+    font-family: var(--fuenteHeading);
+}
+
+.receta__duracion, .receta__ingredientes, .receta__instrucciones, .receta__tabla-nutricional {
+    width: 90%;
+    text-align: left;
+}
+
+.receta {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 375px){
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/* RECETA INFORMACIÓN */
+
+.receta__informacion{
+    
+}
+
+.receta__informacion--foto {
+    width: 100%;
+}
+
+
+
+.receta__informacion--nombre{
+    width: 90%;
+}
+
+.receta__informacion--descripcion {
+    width: 90%;
+
+}
+
+
+
+
+
+main {
+    background-color: var(--colorBlanco);
+}
+/* FOOTER */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
