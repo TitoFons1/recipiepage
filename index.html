@@ -15,11 +15,11 @@
 </head>
 <body>
   <main class = "receta">
-    <div class = "receta__informacion">
-      <div class = "receta__informacion--foto">
+    <div class = "receta__imagen">
         <img src="assets/images/image-omelette.jpeg" alt="Imagen del Omelette">
-      </div>
-      <h1 class = "receta__informacion--nombre">
+    </div>
+    <div class = "receta__informacion">
+      <h1 class = "receta__informacion--titulo">
         Simple Omelette Recipe
       </h1>
       <p class = "receta__informacion--descripcion">
@@ -28,18 +28,20 @@
       </p>
     </div>
     <!-- FIN RECETA INFORMACION -->
-    <div class = "receta__duracion">
-      <h2 class = "receta__duracion--titulo">
-        Preparation time 
-      </h2>
-      <ul class = "receta__duracion--lista">
-        <li class = "receta__duracion--elemento">Total: Approximately 10 minutes</li>
-        <li class = "receta__duracion--elemento">Preparation: 5 minutes</li>
-        <li class = "receta__duracion--elemento">Cooking: 5 minutes</li>
-      </ul>
+    <div class="receta__duracion">
+      <div class="receta__duracion--contenedor">
+        <h2 class="receta__duracion--titulo">
+          Preparation time
+        </h2>
+        <ul class="receta__duracion--lista">
+          <li class="receta__duracion--elemento"><span>Total:</span> Approximately 10 minutes</li>
+          <li class="receta__duracion--elemento"><span>Preparation:</span> 5 minutes</li>
+          <li class="receta__duracion--elemento"><span>Cooking:</span> 5 minutes</li>
+        </ul>
+      </div>
     </div>
     <!-- FIN RECETA DURACION -->
-    <div class = "receta__ingredientes">
+    <div class = "receta__ingredientes u-lineaBaja">
       <h1 class = "receta__ingredientes--titulo">
         Ingredients
       </h1>
@@ -52,7 +54,7 @@
       </ul>
     </div>
     <!-- FIN RECETA INGREDIENTES -->
-    <div class = "receta__instrucciones">
+    <div class = "receta__instrucciones u-lineaBaja">
       <h1 class = "receta__instrucciones--titulo">
         Instructions
       </h1>
@@ -89,15 +91,15 @@
       The table below shows nutritional values per serving without the additional fillings.
       </p>
       <table class="receta__tabla-nutricional-tabla">
-      <tr class="receta__tabla-nutricional-fila">
+      <tr class="receta__tabla-nutricional-fila u-lineaBaja">
         <td class="receta__tabla-nutricional-elemento">Calories</td>
         <td class="receta__tabla-nutricional-elemento">277kcal</td>
       </tr>
-      <tr class="receta__tabla-nutricional-fila">
+      <tr class="receta__tabla-nutricional-fila u-lineaBaja">
         <td class="receta__tabla-nutricional-elemento">Carbs</td>
         <td class="receta__tabla-nutricional-elemento">0g</td>
       </tr>
-      <tr class="receta__tabla-nutricional-fila">
+      <tr class="receta__tabla-nutricional-fila u-lineaBaja">
         <td class="receta__tabla-nutricional-elemento">Protein</td>
         <td class="receta__tabla-nutricional-elemento">20g</td>
       </tr>
