@@ -65,7 +65,11 @@ span {
 }
 
 .u-lineaBaja {
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid var(--colorContainer);
+}
+
+.u-color-rojo {
+    color: var(--colorSecciones)
 }
 
 @media (min-width: 480px){
@@ -173,16 +177,12 @@ span {
 
 .receta__tabla-nutricional-tabla {
     width: 100%;
-}
-
-.receta__tabla-nutricional-fila {
-
+    margin-bottom: 2rem; 
 }
 
 .receta__tabla-nutricional-elemento {
-
+    padding: 1.5rem;
 }
-
 
 /* FOOTER */
 .attribution { font-size: 11px; text-align: center; }
